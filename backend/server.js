@@ -15,7 +15,7 @@ app.use(cors());
 app.use(bodyParser.json());
 
 // Connect to MongoDB
-mongoose.connect('mongodb://127.0.0.1:27017/wbcss', {
+mongoose.connect('mongodb+srv://srisai:srisai25@cluster0.yv5eurc.mongodb.net/', {
   useNewUrlParser: true,
   useUnifiedTopology: true,
 });
